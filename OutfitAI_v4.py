@@ -45,10 +45,10 @@ index = get_pinecone_index()
 # ==================== CLIP model ====================
 @st.cache_resource
 def load_clip():
-    model, _, preprocess = open_clip.create_model_and_transforms(
-        'ViT-L-14', pretrained='laion2b_s32b_b82k'
-    )
-    tokenizer = open_clip.get_tokenizer('ViT-L-14')
+model, _, preprocess = open_clip.create_model_and_transforms(
+    'ViT-B-32', pretrained='laion2b_s34b_b79k'
+)
+tokenizer = open_clip.get_tokenizer('ViT-B-32')
     model.eval()
     return model, preprocess, tokenizer
 

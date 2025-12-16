@@ -1,0 +1,7 @@
+streamlit
+pinecone-client
+open-clip-torch
+torch
+numpy
+Pillow
+requests

@@ -1,6 +1,6 @@
 streamlit
-pinecone-client
-open-clip-torch
+pinecone
+open_clip_torch
 torch
 numpy
 Pillow

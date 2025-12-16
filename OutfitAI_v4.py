@@ -392,7 +392,7 @@ elif page == "My Closet":
     with st.spinner("Loading from Pinecone..."):
         # Query a dummy vector to retrieve everything
         results = index.query(
-            vector=[0.0] * 768,
+            vector=[0.0] * 512,
             top_k=500,
             namespace="scarlett",
             include_metadata=True
